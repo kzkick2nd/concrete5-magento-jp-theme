@@ -21,11 +21,13 @@ $displayThirdColumn = $blocks > 0 || $c->isEditMode();
         </div>
     </div>
     <div class="container">
-        <div class="col-sm-12 col-xs-12">
-            <?php
-            $a = new GlobalArea('Header Navigation');
-            $a->display();
-            ?>
+        <div class="row">
+            <div class="col-sm-12 col-xs-12">
+                <?php
+                $a = new GlobalArea('Header Navigation');
+                $a->display();
+                ?>
+            </div>
         </div>
     </div>
 </header>
